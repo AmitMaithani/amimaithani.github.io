@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Maithani - Data Product Manager</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            background: linear-gradient(135deg, #6B73FF 0%, #000DFF 100%);
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+        }
+        .section-title {
+            border-bottom: 2px solid #6B73FF;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .skill-badge {
+            margin: 0.2rem;
+            font-size: 0.9rem;
+        }
+        .timeline {
+            position: relative;
+            padding-left: 50px;
+        }
+        .timeline:before {
+            content: '';
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #6B73FF;
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+        .timeline-item:before {
+            content: '';
+            position: absolute;
+            left: -40px;
+            top: 5px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #6B73FF;
+            border: 3px solid white;
+        }
+        .card {
+            transition: transform 0.3s;
+            margin-bottom: 1.5rem;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .progress {
+            height: 10px;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header text-center">
+        <div class="container">
+            <img src="profile.jpg" alt="Amit Maithani" class="profile-img mb-3">
+            <h1>Amit Maithani</h1>
+            <p class="lead">Senior Associate, Data Management and Quantitative Analysis at BNY</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="tel:7895841032" class="text-white"><i class="fas fa-phone"></i> 7895841032</a>
+                <a href="mailto:ammymaithani@gmail.com" class="text-white"><i class="fas fa-envelope"></i> ammymaithani@gmail.com</a>
+                <a href="#" class="text-white"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="#" class="text-white"><i class="fas fa-map-marker-alt"></i> Pune, IN</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Summary Section -->
+        <section id="summary" class="mb-5">
+            <h2 class="section-title">Summary</h2>
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">Results-driven Product Owner / Data Product Manager with 4+ years of experience in data analytics, SQL, Python, and BI tools (Power BI, Tableau). Proven expertise in translating business requirements into technical solutions, managing cross-functional projects, and driving data quality controls. Adept at stakeholder collaboration, Agile product ownership, and data-driven decision-making to enhance sales enablement and performance monitoring.</p>
+                    
+                    <div class="row mt-3">
+                        <div class="col-md-4">
+                            <h5><i class="fas fa-tasks text-primary"></i> Product Management</h5>
+                            <ul>
+                                <li>User Story & Feature Development</li>
+                                <li>Agile/Scrum Delivery</li>
+                                <li>Project Management</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h5><i class="fas fa-chart-line text-primary"></i> Data Analytics</h5>
+                            <ul>
+                                <li>SQL & Python Analytics</li>
+                                <li>Data Pipeline Digitization</li>
+                                <li>Data Quality Controls</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h5><i class="fas fa-users text-primary"></i> Collaboration</h5>
+                            <ul>
+                                <li>Stakeholder Management</li>
+                                <li>Cross-functional Leadership</li>
+                                <li>Tableau/Power BI Visualization</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mb-5">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-code"></i> Programming & Tools</h5>
+                            <div class="mb-3">
+                                <span class="badge bg-primary skill-badge">Python</span>
+                                <span class="badge bg-primary skill-badge">SQL</span>
+                                <span class="badge bg-primary skill-badge">Power BI</span>
+                                <span class="badge bg-primary skill-badge">Tableau</span>
+                                <span class="badge bg-primary skill-badge">Data Modeling</span>
+                                <span class="badge bg-primary skill-badge">Power Apps</span>
+                            </div>
+                            
+                            <h5 class="card-title mt-3"><i class="fas fa-cogs"></i> Methodologies</h5>
+                            <div class="mb-3">
+                                <span class="badge bg-success skill-badge">Agile/Scrum</span>
+                                <span class="badge bg-success skill-badge">Lean Six Sigma</span>
+                                <span class="badge bg-success skill-badge">A/B Testing</span>
+                                <span class="badge bg-success skill-badge">Outlier Detection</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-chart-pie"></i> Data Science Skills</h5>
+                            <div class="skill-item mb-3">
+                                <h6>Data Analysis</h6>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item mb-3">
+                                <h6>Data Visualization</h6>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item mb-3">
+                                <h6>Machine Learning</h6>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item mb-3">
+                                <h6>Data Pipeline Optimization</h6>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="mb-5">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <!-- BNY Experience -->
+                <div class="timeline-item">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Senior Associate Data Management and Quantitative Analysis</h4>
+                            <h5 class="card-subtitle mb-2 text-muted">BNY | Aug '24 - Present | Pune, IN</h5>
+                            <ul class="card-text">
+                                <li>Led digitization of analytics pipelines using SQL and Python, improving efficiency by 50% while ensuring 100% data accuracy</li>
+                                <li>Delivered analytical insights through sophisticated synthesis of performance metrics for real-time monitoring</li>
+                                <li>Automated workflows with mathematical programming, reducing manual effort by 70%</li>
+                                <li>Designed 10+ KPIs with data modeling and Power Apps dashboards, boosting decision-making accuracy by 20%</li>
+                                <li>Established robust quality controls ensuring 95% model accuracy through outlier detection and A/B testing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Amazon Lead Specialist -->
+                <div class="timeline-item">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Lead Specialist</h4>
+                            <h5 class="card-subtitle mb-2 text-muted">Amazon | Jan '24 - Aug '24 | Hyderabad, IN</h5>
+                            <ul class="card-text">
+                                <li>Managed cross-functional projects, analyzing trends to guide product development and marketing strategies</li>
+                                <li>Built interactive dashboards (Power BI/Tableau), reducing reporting time by 80%</li>
+                                <li>Drove Agile product development, delivering data solutions 10% faster</li>
+                                <li>Performed UAT and bug resolution for analytics tools deployment</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Amazon ML Data Associate II -->
+                <div class="timeline-item">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Machine Learning Data Associate II</h4>
+                            <h5 class="card-subtitle mb-2 text-muted">Amazon | Jun '21 - Dec '23 | Notia, IN</h5>
+                            <ul class="card-text">
+                                <li>Developed SQL/Python scripts to clean and analyze large datasets, improving ML model accuracy by 15%</li>
+                                <li>Partnered with data scientists to translate business needs into technical solutions</li>
+                                <li>Defined data quality thresholds, ensuring 99% uptime and reliability</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Amazon ML Data Associate -->
+                <div class="timeline-item">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Machine Learning Data Associate</h4>
+                            <h5 class="card-subtitle mb-2 text-muted">Amazon | Sep '20 - Jun '21 | Hyderabad, IN</h5>
+                            <ul class="card-text">
+                                <li>Executed QA on datasets, maintaining 95% reliability in model outputs</li>
+                                <li>Monitored post-deployment performance, resolving issues to sustain high accuracy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="mb-5">
+            <h2 class="section-title">Education</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Post Graduate Diploma in Data Science</h4>
+                            <h5 class="card-subtitle mb-2 text-muted">IIIT Bangalore | Nov '22 - Jun '24</h5>
+                            <p class="card-text">Bengaluru, IN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Bachelor of Science in Mathematics</h4>
+                            <h5 class="card-subtitle mb-2 text-muted">Uttaranchal University | Aug '17 - Aug '20</h5>
+                            <p class="card-text">Dehradun, IN</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="mb-5">
+            <h2 class="section-title">Certifications</h2>
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-certificate text-warning fa-3x mb-3"></i>
+                            <h5>Python Certification</h5>
+                            <p class="text-muted">Hackerrank</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-certificate text-warning fa-3x mb-3"></i>
+                            <h5>SQL Certification</h5>
+                            <p class="text-muted">Hackerrank</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-certificate text-warning fa-3x mb-3"></i>
+                            <h5>Business Analyst</h5>
+                            <p class="text-muted">Amazon</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-certificate text-warning fa-3x mb-3"></i>
+                            <h5>Lean Six Sigma</h5>
+                            <p class="text-muted">Yellow Belt</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects/Accomplishments Section -->
+        <section id="projects" class="mb-5">
+            <h2 class="section-title">Key Accomplishments</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h4 class="card-title">Pipeline Digitization</h4>
+                                <span class="badge bg-success">50% Efficiency</span>
+                            </div>
+                            <p class="card-text">Led digitization of analytics pipelines using SQL and Python, improving efficiency by 50% while ensuring 100% data accuracy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h4 class="card-title">Workflow Automation</h4>
+                                <span class="badge bg-success">70% Reduction</span>
+                            </div>
+                            <p class="card-text">Automated workflows with mathematical programming, reducing manual effort by 70% and accelerating analysis delivery</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h4 class="card-title">Dashboard Optimization</h4>
+                                <span class="badge bg-success">80% Faster</span>
+                            </div>
+                            <p class="card-text">Built interactive dashboards (Power BI/Tableau), reducing reporting time by 80% and enhancing executive decision-making</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p class="mb-0">© 2024 Amit Maithani. All rights reserved.</p>
+            <div class="mt-2">
+                <a href="mailto:ammymaithani@gmail.com" class="text-white mx-2"><i class="fas fa-envelope fa-lg"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-linkedin fa-lg"></i></a>
+                <a href="tel:7895841032" class="text-white mx-2"><i class="fas fa-phone fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Simple animation for skills progress bars
+        document.addEventListener('DOMContentLoaded', function() {
+            const progressBars = document.querySelectorAll('.progress-bar');
+            
+            progressBars.forEach(bar => {
+                const width = bar.style.width;
+                bar.style.width = '0';
+                setTimeout(() => {
+                    bar.style.width = width;
+                }, 100);
+            });
+        });
+    </script>
+</body>
+</html>
